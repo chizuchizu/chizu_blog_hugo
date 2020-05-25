@@ -23,6 +23,9 @@
   {{ else if eq . "pinterest" }}
         <a href="//www.pinterest.com/pin/create/button/?url={{ $permalink }}&amp;description={{ $title }}" target="_blank" rel="noopener" class="share-btn pinterest">
           <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+    {{ else if eq . "line" }}
+  <a href="https://social-plugins.line.me/lineit/share?url={{ $permalink }}&amp;description={{ $title }}" target="_blank" rel="noopener" class="share-btn line">
+    <i class="fab fa-line"></i><p>&nbsp;LINE</p>
         </a>
   {{ else if eq . "email" }}
         <a href="mailto:?subject={{ i18n "check_out" }} {{ $author }}&amp;body={{ $permalink }}" target="_blank" class="share-btn email" data-proofer-ignore>

@@ -1,5 +1,5 @@
 [date_format]
-  other = "2006-01-02"
+  other = "2006年01月02日"
 [postreadingtime]
   one = "1 分で読めます"
   other = "{{ .Count }} 分で読めます"
@@ -10,9 +10,9 @@
 [read_more]
   other = "続きを読む"
 [categories]
-  other = "カテゴリー"
+  other = "カテゴリ"
 [category]
-  other = "カテゴリー"
+  other = "カテゴリ"
 [tags]
   other = "タグ"
 [tag]
@@ -51,7 +51,7 @@
 [comments]
   other = "コメント"
 [say_sth]
-  other = "何か言ってください"
+  other = "コメントする"
 [name]
   other = "あなたの名前 (必須)"
 [email]
@@ -59,7 +59,7 @@
 [website]
   other = "あなたのウェブサイト"
 [body]
-  other = "あなたのメッセージ。Markdown を自由に使用してください('Markdown Cheat Sheet' でググってください)。"
+  other = "コメントを入力してください(Markdownの機能を利用できます。)"
 [no_comment]
   other = "何もありません。"
 [reply]
