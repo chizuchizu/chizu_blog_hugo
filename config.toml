@@ -6,7 +6,7 @@ title                   = "I'm chizuchizu"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
-googleAnalytics         = ""
+googleAnalytics         = "UA-130443536-1"
 pluralizeListTitles     = false
 disableLanguages        = ["en"]
 
