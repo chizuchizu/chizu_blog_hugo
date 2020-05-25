@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on I&#39;m chizuchizu</title>
+    <link>https://chizuchizu.com/blog/</link>
+    <description>Recent content in Posts on I&#39;m chizuchizu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 May 2020 14:04:52 +0900</lastBuildDate>
+    
+	<atom:link href="https://chizuchizu.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>初めてに投稿</title>
+      <link>https://chizuchizu.com/blog/first_submit/</link>
+      <pubDate>Mon, 25 May 2020 14:04:52 +0900</pubDate>
+      
+      <guid>https://chizuchizu.com/blog/first_submit/</guid>
+      <description>間違えてxserverの中のWordPressの中身を消してしまったのでHugoで復活しました。
+よろしくお願いします。
+このテーマがめっちゃお洒落なのでWordPressを捨ててでも使う価値はありそうです。
+アイコンの主張が強いので、大きさを変更しようと思っています。(n日後)</description>
+    </item>
+    
+  </channel>
+</rss>
