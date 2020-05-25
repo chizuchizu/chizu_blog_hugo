@@ -1,26 +1,25 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://chizuchizu.com/"
-DefaultContentLanguage  = "en"
+DefaultContentLanguage  = "ja"
 title                   = "I'm chizuchizu"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
-disableLanguages        = [""]
+disableLanguages        = ["en"]
 
 [params]
   enableCDN             = false
   cssFiles              = ["default"]
   jsFiles               = ["default"]
   highlightjs           = true
-  highlightjsTheme      = "github"
+  highlightjsTheme      = "solarized-dark"
   highlightjsLang       = ["html", "css", "js", "toml"]
   viewMorePostsLink     = "/blog/"
   readingTime           = true
-  socialShare           = ["twitter",
-                          "email"]
+  socialShare           = ["twitter","facebook","line","email"]
 
   [params.meta]
     description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
@@ -33,15 +32,15 @@ disableLanguages        = [""]
 
   [params.header]
     navbarTitle         = "I'm chizuchizu"
-    dynamicTitles       = true
+    dynamicTitles       = false
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   [params.intro]
     header                = "チズチズ(chizuchizu)"
     paragraph             = "14yo 統計学/Kaggle/Python/Linux"
-    rssIntro              = true
+    rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
@@ -126,22 +125,24 @@ disableLanguages        = [""]
 [social]
   # Coding Communities
   github                = "chizuchizu"
-  stackoverflow         = "" # User Number
+#  stackoverflow         = "" # User Number
 
-  behance               = ""
-  dribbble              = ""
+ # behance               = ""
+ # dribbble              = ""
   # Publishing Communities
   # Professional/Business Oriented Communities
-  foursquare            = ""
-  xing                  = ""
-  slideshare            = ""
+ # foursquare            = ""
+ # xing                  = ""
+ # slideshare            = ""
   # Social Networks
-  reddit                = "example"
-  quora                 = ""
-  youtube               = ""
+  #reddit                = "example"
+  #quora                 = ""
+  youtube               = "channel/UCUgUfVoiunYg48F7D3NRiRg"
   instagram             = "chizuchizu6"
   twitter               = "chizu_potato"
 
-  mastodon              = "example.com/@example"
+  #mastodon              = "example.com/@example"
   # Email
   email                 = "example"
+  atcoder               = "chizuchizu"
+  kaggle                = "chizuchizu"
