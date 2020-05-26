@@ -16,7 +16,7 @@ disableLanguages        = ["en"]
   jsFiles               = ["default"]
   highlightjs           = true
   highlightjsTheme      = "solarized-dark"
-  highlightjsLang       = ["html", "css", "js", "toml"]
+  highlightjsLang       = ["html", "css", "js", "toml","python","bash"]
   viewMorePostsLink     = "/blog/"
   readingTime           = true
   socialShare           = ["twitter","facebook","line","email"]
@@ -49,7 +49,7 @@ disableLanguages        = ["en"]
       src                 = "img/main/icon.png"
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "Chizuchizu's icon"
 
   [params.sidebar]
     about               = "チズチズという人が書いているブログです。気ままに技術系だったりまったり系の記事を投稿します。"
