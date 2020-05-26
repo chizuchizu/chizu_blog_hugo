@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ .Page.Language | default "en" }}">
+  {{ partial "head" . }}
+  <body>
+    {{ partial "site-header" . }}
+    <div id="wrapper">
+      {{ partial "site-intro" . }}
+      <main id="site-main">
+        {{ .Render "content-single"}}
+      </main>
+      {{ partial "site-sidebar" . }}
+      {{ partial "site-footer" . }}
+      {{ partial "scripts" . }}
+      {{ partial "disqus" . }}
+
+    </div>
+
+    <div class="disqus-comments">
+      {{ template "_default/disqus.html" . }}
+    </div>
+    <div class="disqus-counter">
+      {{ template "partials/disqus-counter.html" . }}
+    </div>
+
+  </body>
+</html>
