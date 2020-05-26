@@ -9,8 +9,6 @@ disqusShortname         = ""
 googleAnalytics         = "UA-130443536-1"
 pluralizeListTitles     = false
 disableLanguages        = ["en"]
-DisqusShortname = "chizu-blog-hugo"
-
 
 [params]
   enableCDN             = false
@@ -64,12 +62,12 @@ DisqusShortname = "chizu-blog-hugo"
     socialFooter        = true
 
   [params.staticman]
-    enabled             = false
-    api                 = "staticman3.herokuapp.com"  # No Trailing Slash
+    enabled             = true
+    api                 = ""  # No Trailing Slash
     gitProvider         = ""
-    username            = "chizuchizu"
-    repo                = "chizu_blog_hugo"
-    branch              = "master"
+    username            = ""
+    repo                = ""
+    branch              = ""
 
     [params.staticman.recaptcha]
       siteKey           = ""
