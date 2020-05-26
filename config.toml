@@ -10,6 +10,7 @@ googleAnalytics         = "UA-130443536-1"
 pluralizeListTitles     = false
 disableLanguages        = ["en"]
 
+
 [params]
   enableCDN             = false
   cssFiles              = ["default"]
@@ -143,6 +144,6 @@ disableLanguages        = ["en"]
 
   #mastodon              = "example.com/@example"
   # Email
-  email                 = "example"
+  email                 = "ochimasumi@gmail.com"
   atcoder               = "chizuchizu"
   kaggle                = "chizuchizu"

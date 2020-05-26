@@ -1,6 +1,7 @@
 +++
 title = "このブログを作成した理由とこれから"
 author = "chizuchizu"
+date = 2020-05-25
 tags = ["blog"]
 +++
 
