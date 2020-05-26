@@ -39,7 +39,7 @@ comments:Hugo, the world’s fastest framework for building websites
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "chizuchizu"
+  name: ""
 
   # (*) REQUIRED
   #

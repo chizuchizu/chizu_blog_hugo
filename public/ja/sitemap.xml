@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://chizuchizu.com/ja/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chizuchizu.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://chizuchizu.com/ja/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/ja/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chizuchizu.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://chizuchizu.com/ja/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/ja/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://chizuchizu.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://chizuchizu.com/ja/tags/"
+                />
+  </url>
+  
+</urlset>
