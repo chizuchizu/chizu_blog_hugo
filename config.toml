@@ -6,9 +6,11 @@ title                   = "I'm chizuchizu"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
-googleAnalytics         = ""
+googleAnalytics         = "UA-130443536-1"
 pluralizeListTitles     = false
 disableLanguages        = ["en"]
+DisqusShortname = "chizu-blog-hugo"
+
 
 [params]
   enableCDN             = false
@@ -62,12 +64,12 @@ disableLanguages        = ["en"]
     socialFooter        = true
 
   [params.staticman]
-    enabled             = true
-    api                 = ""  # No Trailing Slash
+    enabled             = false
+    api                 = "staticman3.herokuapp.com"  # No Trailing Slash
     gitProvider         = ""
-    username            = ""
-    repo                = ""
-    branch              = ""
+    username            = "chizuchizu"
+    repo                = "chizu_blog_hugo"
+    branch              = "master"
 
     [params.staticman.recaptcha]
       siteKey           = ""

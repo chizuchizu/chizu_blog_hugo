@@ -1,6 +1,6 @@
 {{ if ne .Site.DisqusShortname "" }}
     <article class="post">
-        {{ template "_internal/disqus.html" . }}
+        {{ template "_default/disqus.html" . }}
     </article>
 
 {{/* Backwards compatibility for deprecated parameter ".Site.Params.staticman.staticman" */}}
