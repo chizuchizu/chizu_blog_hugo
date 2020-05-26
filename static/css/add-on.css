@@ -1,6 +1,76 @@
-/*
+@media (prefers-color-scheme: dark) {
+    /*
   This css file is for individual users to restyle items for their personal site,
   or for the implementation of features specifically for their site. Anything that
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   and follow the formatting and style given.
 */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    i,
+    p,
+    time,
+    span,
+    li,
+    a.button,
+    a#back-to-top {
+        color: rgb(116, 196, 186);
+    }
+    a.share-btn i.fas,
+    i.fab {
+        color: rgb(201, 201, 201);
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: dimgrey;
+        filter: brightness(160%);
+    }
+    a.share-btn {
+        filter: brightness(60%);
+    }
+    nav {
+        background-color: rgb(38, 24, 44);
+    }
+    a.link,
+    #site-nav-menu {
+        background: rgb(38, 24, 44);
+    }
+    #site-header .flyout-menu {
+        background-color: rgb(38, 24, 44);
+    }
+    .flyout-menu a.link {
+        color: rgb(139, 112, 87);
+    }
+    a.link {
+        border-bottom: dotted 1px rgba(160, 160, 160, .65);
+        color: inherit;
+        text-decoration: none;
+        -webkit-transition: color .2s ease, border-bottom-color .2s ease;
+        -moz-transition: color .2s ease, border-bottom-color .2s ease;
+        -ms-transition: color .2s ease, border-bottom-color .2s ease;
+        -o-transition: color .2s ease, border-bottom-color .2s ease;
+        transition: color .2s ease, border-bottom-color .2s ease;
+    }
+    a.link:before {
+        -webkit-transition: color ease;
+        -moz-transition: color ease;
+        -ms-transition: color ease;
+        -o-transition: color ease;
+        transition: color ease
+    }
+    a.link:hover {
+        border-bottom-color: transparent;
+        color: #2ebaae
+    }
+    body {
+        background-color: rgb(18, 13, 20);
+        background: rgb(18, 13, 20);
+    }
+    article.post,
+    article.mini-post header {
+        background: rgb(12, 22, 36);
+        border: darkorange;
+    }
+}
