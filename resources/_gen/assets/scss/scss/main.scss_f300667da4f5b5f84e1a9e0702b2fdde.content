@@ -710,11 +710,6 @@ table {
   .share-btn.twitter:hover {
     background: #4c9ad6; }
 
-.share-btn.line {
-  background: #3ce64a; }
-  .share-btn.line:hover {
-    background: #36a540; }
-
 .share-btn.google-plus {
   background: #dd4b39; }
   .share-btn.google-plus:hover {
