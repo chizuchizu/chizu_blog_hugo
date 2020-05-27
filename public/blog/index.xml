@@ -5,11 +5,21 @@
     <link>https://chizuchizu.com/blog/</link>
     <description>Recent content in Posts on I&#39;m chizuchizu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 25 May 2020 14:04:52 +0900</lastBuildDate>
+    <language>ja</language>
+    <lastBuildDate>Tue, 26 May 2020 02:42:38 +0900</lastBuildDate>
     
 	<atom:link href="https://chizuchizu.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://chizuchizu.com/blog/test/</link>
+      <pubDate>Tue, 26 May 2020 02:42:38 +0900</pubDate>
+      
+      <guid>https://chizuchizu.com/blog/test/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+6 5 4 3 2 1 0</description>
+    </item>
     
     <item>
       <title>初めての投稿</title>
@@ -26,7 +36,7 @@
     <item>
       <title>このブログを作成した理由とこれから</title>
       <link>https://chizuchizu.com/blog/about_this_blog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
       
       <guid>https://chizuchizu.com/blog/about_this_blog/</guid>
       <description>最近ブログを作ったり閉じたりと忙しいですが、方針がまとまってきたので報告します。

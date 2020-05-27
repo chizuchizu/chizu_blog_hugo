@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://chizuchizu.com/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-05-25T14:04:52+09:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://chizuchizu.com/ja/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://chizuchizu.com/categories/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/blog/test/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/blog/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/tags/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/tags/test/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/categories/test/</loc>
+    <lastmod>2020-05-26T02:42:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/blog/first_submit/</loc>
+    <lastmod>2020-05-25T14:04:52+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/about/</loc>
+    <lastmod>2020-05-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/tags/blog/</loc>
+    <lastmod>2020-05-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/blog/about_this_blog/</loc>
+    <lastmod>2020-05-25T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://chizuchizu.com/tags/index/</loc>
+  </url>
+  
+</urlset>
