@@ -21,7 +21,7 @@
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
         {{- end -}}
-        <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
+        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
       {{- end -}}
@@ -44,7 +44,7 @@
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
         {{- end -}}
-        <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
+        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
       {{- end -}}
