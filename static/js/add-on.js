@@ -14,6 +14,17 @@ function setTheme(mode) {
   var toggle = document.getElementById("dark-mode-toggle");
   var icon_toggle = document.getElementById("dark-mode-toggle-icon");
   var darkTheme = document.getElementById("dark-mode-theme");
+  const userPrefersDark =
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  const userPrefersLight =
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: light)").matches;
+
+  if (userPrefersDark) {
+    setTheme("dark")
+  }
 
   toggle.addEventListener("click", () => {
     if (icon_toggle.className === "fas fa-moon fa-lg") {
