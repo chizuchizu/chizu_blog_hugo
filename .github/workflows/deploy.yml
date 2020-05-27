@@ -33,10 +33,13 @@ jobs:
         run: |    
           chmod 700 /home/runner/.ssh
           chmod 600 /home/runner/.ssh/id_rsa
+#       - name: Connect to xserver
+#         run: |
+#           ssh -v -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -T
+#           ls
       - name: Connect to xserver
         run: |
-          ssh -v -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -T
+          scp -r -i /home/runner/.ssh/id_rsa -P 10022 ${{ secrets.SERVER_NAME }}:chizuchizu.com/public_html/js /home/runner
           ls
-      
 # - name: run deploy script
       #   run: bash deploy.sh
