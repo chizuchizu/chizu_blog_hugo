@@ -31,7 +31,7 @@ jobs:
         run: ls                           # ファイルリストを表示
       - name: Connect to xserver
         run: |
-          ssh -i /home/runner/.ssh/id_rsa -p 10022 {{ secrets.SERVER_NAME }}
+          ssh -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }}
           ls
       
 # - name: run deploy script
