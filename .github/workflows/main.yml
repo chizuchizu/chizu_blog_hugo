@@ -15,14 +15,19 @@ jobs:
     steps:
       - uses: actions/checkout@master   # リポジトリのデータを仮想環境にチェックアウトしてくるアクションを実行する
 
-      - name: Setup hugo
-        run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}-64bit.deb
-          sudo dpkg -i hugo_${HUGO_VERSION}-64bit.deb
-          hugo version
-        env:
-            HUGO_VERSION: '0.71.1'
+#       - name: Setup hugo
+#         run: |
+#           wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}-64bit.deb
+#           sudo dpkg -i hugo_${HUGO_VERSION}-64bit.deb
+#           hugo version
+#         env:
+#             HUGO_VERSION: '0.71.1'
 
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.2.0
+        with:
+          hugo-version: "0.70.1"
+            
       - name: Build Project
         run: |
           hugo  --gc --minify                     # ビルド
