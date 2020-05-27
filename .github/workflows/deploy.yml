@@ -1,0 +1,32 @@
+on:
+  release:
+    types:
+    - published # 新しいリリースが作成されたときに実行
+name: Deploy
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+   
+    steps:
+      - uses: actions/checkout@master   # リポジトリのデータを仮想環境にチェックアウトしてくるアクションを実行する
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.2.0
+        with:
+          hugo-version: "0.70.0"
+            
+      - name: Build Project
+        run: |
+          hugo  --gc --minify                     # ビルド
+      - name: List output files
+        run: ls                           # ファイルリストを表示
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v1
+        with: # shimataro/ssh-key-actionに渡すパラメーター
+          private-key: ${{ secrets.SSH_KEY }} # 必須
+          public-key: ${{ secrets.SSH_KEY_PUBLIC }} # 必須
+          name: id_rsa # 省略可
+          known-hosts: ${{ secrets.KNOWN_HOSTS }} # 省略可
+      # - name: run deploy script
+      #   run: bash deploy.sh
