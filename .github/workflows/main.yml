@@ -21,11 +21,11 @@ jobs:
           sudo dpkg -i hugo_${HUGO_VERSION}-64bit.deb
           hugo version
         env:
-            HUGO_VERSION: '0.18.1'
+            HUGO_VERSION: '0.71.1'
 
       - name: Build Project
         run: |
-          hugo                     # ビルド
+          hugo  --gc --minify                     # ビルド
 
       - name: List output files
         run: ls                           # ファイルリストを表示
