@@ -29,10 +29,12 @@ jobs:
           known-hosts: ${{ secrets.KNOWN_HOSTS }} # 省略可
       - name: List output files
         run: ls                           # ファイルリストを表示
-      - name: Connect to xserver
-        run: |
+      - name: chmod
+        run: |    
           chmod 700 /home/runner/.ssh
           chmod 600 /home/runner/.ssh/id_rsa
+      - name: Connect to xserver
+        run: |
           ssh -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -T
           ls
       
