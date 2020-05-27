@@ -112,7 +112,7 @@ exampleSite
 │       └── _index.pl.md
 ├── static
 │   ├── css
-│   │   └── add-on.css
+│   │   └── darker.css
 │   ├── img
 │   │   ├── 2014
 │   │   │   ├── 04
