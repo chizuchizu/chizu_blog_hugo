@@ -31,6 +31,8 @@ jobs:
         run: ls                           # ファイルリストを表示
       - name: Connect to xserver
         run: |
+          chmod 700 /home/runner/.ssh
+          chmod 600 /home/runner/.ssh/id_rsa
           ssh -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }}
           ls
       
