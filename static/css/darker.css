@@ -88,6 +88,11 @@ article.mini-post header {
     border: darkorange;
 }
 
-
+body{
+    transition: 0.6s ease-in-out;
+}
+article{
+    transition: 0.9s ease-in-out;
+}
 /* @media (prefers-color-scheme: dark) {}
    */
