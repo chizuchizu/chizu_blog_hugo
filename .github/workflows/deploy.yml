@@ -39,7 +39,7 @@ jobs:
 #           ls
       - name: Connect to xserver
         run: |
-          scp -r -i /home/runner/.ssh/id_rsa -P 10022 ${{ secrets.SERVER_NAME }}:chizuchizu.com/public_html/js /home/runner
+          scp -r -v -i /home/runner/.ssh/id_rsa -P 10022 ${{ secrets.SERVER_NAME }}:chizuchizu.com/public_html/js /home/runner
           ls
 # - name: run deploy script
       #   run: bash deploy.sh
