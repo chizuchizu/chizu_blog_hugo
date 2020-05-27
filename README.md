@@ -1,3 +1,4 @@
+![CI](https://github.com/Chizuchizu/chizu_blog_hugo/workflows/CI/badge.svg)
 ## 記事テンプレート生成コマンド
   
 ```
