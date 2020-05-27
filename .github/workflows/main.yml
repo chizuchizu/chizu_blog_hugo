@@ -37,5 +37,5 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }} # FTPのユーザー名を設定
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }} # FTPのパスワードを設定
           LOCAL_DIR: public                           # どのディレクトリのデータをアップロードするか
-          REMOTE_DIR: /chizuchizu.com/public_html       # リモートのどのディレクトリにアップロードするか
+          REMOTE_DIR: /       # リモートのどのディレクトリにアップロードするか
           ARGS: --delete
