@@ -1,4 +1,12 @@
 <header>
+    <div class="eyecatch">
+        {{ if .Params.images }}
+        <a href="{{ .RelPermalink }}" class="image featured">
+          {{ range first 1 .Params.images }}
+            <img src="{{ . | absURL }}" alt="">
+          {{ end }}{{else}}{{end}}
+        </a>
+    </div>
   <div class="title">
     {{ if $.Scratch.Get "h1" }}
       <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
