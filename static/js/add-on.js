@@ -23,7 +23,7 @@ function setTheme(mode) {
     window.matchMedia("(prefers-color-scheme: light)").matches;
 
   if (userPrefersDark) {
-    setTheme("dark")
+    setTheme("dark");
   }
 
   toggle.addEventListener("click", () => {

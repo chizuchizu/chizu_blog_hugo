@@ -17,8 +17,17 @@ span,
 li,
 a.button,
 a#back-to-top {
-  color: rgb(116, 196, 186);
+  color: rgb(107, 202, 191);
 }
+
+a.button{
+    border-color: rgb(25, 109, 109);
+}
+
+a:hover{
+    color: rgb(247, 178, 88);
+}
+
 a.share-btn i.fas,
 i.fab {
   color: rgb(201, 201, 201);
