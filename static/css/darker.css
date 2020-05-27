@@ -94,5 +94,9 @@ body{
 article{
     transition: 0.9s ease-in-out;
 }
+
+section#recent-posts .mini-post{
+    border: #9ce0db;
+}
 /* @media (prefers-color-scheme: dark) {}
    */
