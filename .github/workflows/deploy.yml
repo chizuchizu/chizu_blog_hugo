@@ -29,15 +29,15 @@ jobs:
           known-hosts: ${{ secrets.KNOWN_HOSTS }} # 省略可
       - name: List output files
         run: ls                           # ファイルリストを表示
-      - name: copy file via ssh password
-        uses: appleboy/scp-action@master
-        with:
-          host: "sv7521.xserver.jp"
-          username: "chizuchizu"
-          password: ${{ secrets.PASSWORD }}
-          port: 10022
-          source: "public/"
-          target: "chizuchizu.com/public_html"
+#       - name: copy file via ssh password
+#         uses: appleboy/scp-action@master
+#         with:
+#           host: "sv7521.xserver.jp"
+#           username: "chizuchizu"
+#           password: ${{ secrets.PASSWORD }}
+#           port: 10022
+#           source: "public/"
+#           target: "chizuchizu.com/public_html"
             
       - name: chmod
         run: |    
