@@ -48,6 +48,6 @@ jobs:
         run: ssh chizuchizu@sv7521.xserver.jp "rm -r public_html/*"
         
       - name: Send Files
-        run:|
+        run: |
           cd $PWD
           scp -r public/ chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
