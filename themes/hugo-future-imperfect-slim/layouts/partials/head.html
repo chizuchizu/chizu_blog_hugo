@@ -20,8 +20,9 @@
         {{- if eq (i18n "letter_direction") "RTL" -}}
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
-        {{- end -}}
-        <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
+        {{- end -}}        
+        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}">
+        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}">
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
       {{- end -}}
@@ -44,7 +45,8 @@
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
         {{- end -}}
-        <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
+        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}">
+        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}">
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
       {{- end -}}
