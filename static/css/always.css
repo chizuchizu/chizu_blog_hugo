@@ -38,3 +38,13 @@ div.eyecatch a {
 	transform: none;
 }
 
+body{
+	font-display: swap;
+}
+
+@media(max-width:768px) {
+	a.image.featured{
+		text-align: center;
+		margin: auto;
+	}
+}
