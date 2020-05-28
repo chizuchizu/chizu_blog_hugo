@@ -34,7 +34,7 @@ jobs:
           chmod 700 /home/runner/.ssh
           chmod 600 /home/runner/.ssh/id_rsa
           ssh -v -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -o StrictHostKeyChecking=no -T
-#       - name: Connect to xserverd
+#       - name: Connect to xserver
 #         run: |
 #           ssh -v -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -T
 #           ls
