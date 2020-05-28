@@ -1,6 +1,6 @@
 <article class="post">
   {{ .Render "header" }}
-  {{ .Render "featured" }}
+  {{/* .Render "featured" */}}
   {{ $.Scratch.Set "summary" ((delimit (findRE "<p.*?>(.|\n)*?</p>" .Content 1) "") | truncate (default 140 .Site.Params.summary_length) (default "&hellip;" .Site.Params.text.truncated ) | replaceRE "&amp;" "&" | safeHTML) }}
   {{ $.Scratch.Get "summary" }}
   <footer>
