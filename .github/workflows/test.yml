@@ -49,4 +49,4 @@ jobs:
       - name: Send Files
         run: |
           cd $PWD
-          scp -r public/ chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
+          scp -r public/ -P 10022 chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
