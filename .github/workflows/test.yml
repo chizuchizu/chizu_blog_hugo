@@ -26,7 +26,7 @@ jobs:
           hugo-version: "0.71.1"
             
       - name: Build Project
-        run: hugo  --gc --minify                    # ビルド
+        run: hugo  --gc --minify                    # hugo ビルド
       
       - name: Get SSH Key
         run: |
