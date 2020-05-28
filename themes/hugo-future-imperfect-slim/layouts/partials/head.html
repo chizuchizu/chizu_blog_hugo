@@ -6,23 +6,22 @@
   {{- template "_internal/twitter_cards.html" . -}}
   {{- template "_internal/google_news.html" . -}}
   {{- if .Site.Params.enableCDN -}}
-    {{- if .Site.Params.highlightjs -}}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/{{ .Site.Params.highlightjsTheme | default "default" }}.min.css">{{- end -}}
+    {{- if .Site.Params.highlightjs -}}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/{{ .Site.Params.highlightjsTheme | default "default" }}.min.css" async>{{- end -}}
     {{- range .Site.Params.cssFiles -}}
       {{- if eq . "default" -}}
         <link rel="stylesheet" href="{{ "css/normalize.css" | relURL }}">
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
-        <script src="https://kit.fontawesome.com/be54eb011a.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700" async>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" async>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" async/>
         {{- $mainCSSOptions := (dict "targetPath" "css/main.min.css" "outputStyle" "compressed") -}}
         {{- $main := resources.Get "scss/main.scss" | resources.ToCSS $mainCSSOptions | resources.Fingerprint -}}
-        <link rel="stylesheet" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}">
+        <link rel="stylesheet" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" async id="aaaaa">
         {{- if eq (i18n "letter_direction") "RTL" -}}
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
-          <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
+          <link rel="stylesheet" href="{{ $rtl.RelPermalink }}" async>
         {{- end -}}        
-        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}">
-        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}">
+        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}" async>
+        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}" async>
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
       {{- end -}}
@@ -40,15 +39,15 @@
         {{- end -}}
         {{- $cssSlice = $cssSlice | append (resources.Get "scss/main.scss" | toCSS) -}}
         {{- $css := $cssSlice | resources.Concat "css/bundle.css" | minify | fingerprint -}}
-        <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" async id="aaaaa">
         {{- if eq (i18n "letter_direction") "RTL" -}}
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
-          <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
+          <link rel="stylesheet" href="{{ $rtl.RelPermalink }}" async>
         {{- end -}}
-        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}">
-        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}">
+        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}" async>
+        <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}" async>
       {{- else }}
-        <link rel="stylesheet" href="{{ . | relURL }}">
+        <link rel="stylesheet" href="{{ . | relURL }}" async>
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -59,5 +58,4 @@
   {{- else -}}
     {{- .Scratch.Set "Author" .Author -}}
   {{ end }}
-  <script data-ad-client="ca-pub-9942257923288633" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
