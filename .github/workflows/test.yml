@@ -44,7 +44,7 @@ jobs:
           ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp  -o StrictHostKeyChecking=no
           
       - name: Delete Remote Files
-        run: ssh chizuchizu@sv7521.xserver.jp "rm -r public_html/*"
+        run: ssh chizuchizu@sv7521.xserver.jp "rm -r public_html/*" -o StrictHostKeyChecking=no -v
         
       - name: Send Files
         run: |
