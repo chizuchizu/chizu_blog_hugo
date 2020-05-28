@@ -34,7 +34,7 @@ jobs:
           touch .ssh/id_rsa
           touch .ssh/id_rsa.pub
           echo ${{ secrets.SSH_PRIVATE_KEY }} > .ssh/id_rsa
-          echo "sv7521.xserver.jp,183.90.241.42 ecdsa-sha2-nistp256 ${{ secrets.SSH_PUBLIC_KEY }}" > .ssh/known_hosts
+          echo "sv7521.xserver.jp,183.90.241.42 ecdsa-sha2-nistp256 SHA256:V0GmZVuUlP6tQw5MYbGelfcq+IQwq/6+HnH1OPAcaLo" > .ssh/known_hosts
           echo ${{ secrets.SSH_PUBLIC_KEY }} > .ssh/id_rsa.pub
           chmod 700 -R .ssh
           chmod 600 .ssh/*
