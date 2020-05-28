@@ -30,7 +30,8 @@ jobs:
       
       - name: Get SSH Key
         run: |
-          pwd
+          PWD=`pwd`
+          cd ~
           mkdir .ssh
           touch .ssh/id_rsa
           touch .ssh/id_rsa.pub
@@ -45,4 +46,6 @@ jobs:
         run: ssh chizuchizu@sv7521.xserver.jp "rm -r public_html/*"
         
       - name: Send Files
-        run: scp -r public/ chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
+        run:|
+          cd $PWD
+          scp -r public/ chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
