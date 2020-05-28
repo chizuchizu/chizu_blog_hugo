@@ -38,18 +38,6 @@ toggle.addEventListener("click", () => {
   }
 });
 
-var inserthtml = function () {
-  var doc = document;
-  var head = doc.getElementsByTagName("head")[0];
-  console.log("Insert!");
-  head.insertAdjacentHTML(
-    "afterbegin",
-    '<link id="always-adopt-theme" rel="stylesheet" href="/css/always.css">'
-  );
-};
-
-setTimeout(inserthtml, 600);
-
 function setTheme(mode) {
   if (mode === "dark") {
     darkTheme.disabled = false;

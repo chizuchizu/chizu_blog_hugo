@@ -21,6 +21,7 @@
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
         {{- end -}}        
+        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}">
         <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}">
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
@@ -44,6 +45,7 @@
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}">
         {{- end -}}
+        <link id="always-adopt-theme" rel="stylesheet" href="{{ "css/always.css" | relURL }}">
         <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ "css/darker.css" | relURL }}">
       {{- else }}
         <link rel="stylesheet" href="{{ . | relURL }}">
