@@ -30,6 +30,7 @@ jobs:
       
       - name: Get SSH Key
         run: |
+          pwd
           mkdir .ssh
           touch .ssh/id_rsa
           touch .ssh/id_rsa.pub
