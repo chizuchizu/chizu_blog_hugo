@@ -41,7 +41,7 @@ jobs:
           echo ${{ secrets.SSH_PUBLIC_KEY }} > .ssh/id_rsa.pub
           chmod 700 -R .ssh
           chmod 600 .ssh/*
-          ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp
+          ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp -o StricHostKeyChecking=no
           pwd
           
       - name: Delete Remote Files
