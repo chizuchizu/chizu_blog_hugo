@@ -31,7 +31,9 @@ jobs:
         run: ls                           # ファイルリストを表示
       - name: chmod
         run: |    
-           echo y | ssh -v -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -T
+          chmod 700 /home/runner/.ssh
+          chmod 600 /home/runner/.ssh/id_rsa
+          echo y | ssh -v -i /home/runner/.ssh/id_rsa -p 10022 ${{ secrets.SERVER_NAME }} -T
 
 #      # chmod 700 /home/runner/.ssh
 #           # chmod 600 /home/runner/.ssh/id_rsa
