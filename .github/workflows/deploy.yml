@@ -29,6 +29,16 @@ jobs:
           known-hosts: ${{ secrets.KNOWN_HOSTS }} # 省略可
       - name: List output files
         run: ls                           # ファイルリストを表示
+      - name: Deploy to Staging server
+        uses: easingthemes/ssh-deploy@v2.0.7
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_KEY }}
+          ARGS: "-rltgoDzvO"
+          SOURCE: "public/"
+          REMOTE_HOST: "sv7521.xserver.jp"
+          REMOTE_USER: "chizuchizu"
+          TARGET: "chizuchizu.com/public_html"
+            
       - name: chmod
         run: |    
           chmod 700 /home/runner/.ssh
