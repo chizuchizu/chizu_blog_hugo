@@ -42,7 +42,6 @@ jobs:
           chmod 700 -R .ssh
           chmod 600 .ssh/*
           ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp -o StricHostKeyChecking=no
-          pwd
           
       - name: Delete Remote Files
         run: ssh chizuchizu@sv7521.xserver.jp "rm -r public_html/*"
