@@ -39,6 +39,9 @@ jobs:
           
           python make_title.py
           ls
+      - name: add ads_txt
+        run: |
+          echo "${{ secrets.ads }}" > public/ads.txt
 
       - name: Build Project
         run: hugo  --gc --minify                    # hugo ビルド
