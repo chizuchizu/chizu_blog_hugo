@@ -1,10 +1,11 @@
-+++
-author = "chizuchizu"
-title = "初めての投稿"
-date = 2020-05-25T14:04:52+09:00
-description = "test"
+---
+title : "初めての投稿"
+images: ["img/eye-catch/first_submit.png"]
+author: "chizuchizu"
+date: 2020-05-25T14:04:52+09:00
+description: "test"
 
-+++
+---
 間違えてxserverの中のWordPressの中身を消してしまったのでHugoで復活しました。
 
 よろしくお願いします。

@@ -1,9 +1,11 @@
-+++
-title = "このブログを作成した理由とこれから"
-author = "chizuchizu"
-date = 2020-05-25
-tags = ["blog"]
-+++
+---
+title: "このブログを作成した理由 とこれから"
+images: ["img/eye-catch/about_this_blog.png"]
+author: "chizuchizu"
+date: 2020-05-25
+tags: ["blog"]
+imges: ["img/main/icon.png"]
+---
 
 最近ブログを作ったり閉じたりと忙しいですが、方針がまとまってきたので報告します。
 
