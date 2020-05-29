@@ -1,6 +1,5 @@
 ---
 title : "初めての投稿"
-images: ["img/eye-catch/first_submit.png"]
 author: "chizuchizu"
 date: 2020-05-25T14:04:52+09:00
 description: "test"

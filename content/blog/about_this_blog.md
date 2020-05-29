@@ -1,6 +1,5 @@
 ---
 title: "このブログを作成した理由 とこれから"
-images: ["img/eye-catch/about_this_blog.png"]
 author: "chizuchizu"
 date: 2020-05-25
 tags: ["blog"]
