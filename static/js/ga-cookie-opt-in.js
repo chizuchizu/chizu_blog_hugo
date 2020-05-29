@@ -26,6 +26,7 @@ window.addEventListener('DOMContentLoaded', function() {
     var iconcss = document.createElement('link');
         iconcss.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
         iconcss.setAttribute('rel', 'stylesheet');
+        iconcss.setAttribute('async','true');
         document.head.appendChild(iconcss);
     // ↑Google Web Fonts から Material Icons を読み込み（すでに別で読み込んでいる場合は削除可）↑
     // 通知バーのスタイル（パスは必要に応じて変更してください）
