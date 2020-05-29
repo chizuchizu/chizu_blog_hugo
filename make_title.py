@@ -36,7 +36,7 @@ for path in os.listdir("content/blog"):
 
         with open(file_path) as f:
             l = f.readlines()
-        add = 'images: ["{}"]\n'.format(img_path)
+        add = 'images: ["{}"]\n'.format(img_path) + 'img: ["{}"]'\n.format(img_path)
         l.insert(2, add)
         with open(file_path, mode="w") as f:
             f.writelines(l)
