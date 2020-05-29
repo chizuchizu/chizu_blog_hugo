@@ -111,10 +111,3 @@
 div#name-ga-cookie-accept-bar{
   z-index: 1000000;
 }
-
-div#name-ga-cookie-accept-bar i{
-  color: white;
-}
-#name-ga-cookie-accept-bar > p > i{
-  color: white;
-}
