@@ -38,6 +38,7 @@ jobs:
           pip install beautifulsoup4
           
           python make_title.py
+          ls
 
       - name: Build Project
         run: hugo  --gc --minify                    # hugo ビルド
