@@ -1210,7 +1210,7 @@ textarea {
      }
      .previous, .next {
        div {
-         display: none;
+         display: block;
          @include for-tablet-up {
            display: block;
            overflow: hidden;
