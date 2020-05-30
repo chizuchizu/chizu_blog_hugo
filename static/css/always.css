@@ -19,6 +19,9 @@ a.image.featured img {
 div.eyecatch a {
   width: 200px;
   align-content: center;
+}
+
+a.share-btn.line {
 	background: #3ce64a !important;
 }
 
