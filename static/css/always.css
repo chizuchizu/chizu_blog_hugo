@@ -127,7 +127,10 @@ body {
 	font-display: swap;
 }
 
-body>div>section {
-	padding: 2vw;
-	width: calc(100vw - 4vw);
+
+@media (max-width: 1024px) {
+	body>div>section {
+		padding: 2vw;
+		width: calc(100vw - 4vw);
+	}
 }
