@@ -38,9 +38,7 @@ div.eyecatch a {
 	transform: none;
 }
 
-body {
-	font-display: swap;
-}
+
 
 @media (max-width: 768px) {
 	a.image.featured {
@@ -49,9 +47,6 @@ body {
 	}
 }
 
-h1, h2, h3, h4, h5, h6, i, p, time, span, li, a {
-	font-display: swap;
-}
 
 p.eyecatch.center {
 	text-align: center;
