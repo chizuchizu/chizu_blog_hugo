@@ -1,24 +1,24 @@
 a.share-btn.line {
-    background: #3ce64a !important;
+	background: #3ce64a !important;
 }
 
 a.share-btn.line:hover {
-    background: #36a540 !important;
+	background: #36a540 !important;
 }
 
 :root {
-    --post-list-img-size: 150px;
+	--post-list-img-size: 150px;
 }
 
 a.image.featured img {
-    width: var(--post-list-img-size);
-    height: var(--post-list-img-size);
-    object-fit: cover;
+	width: var(--post-list-img-size);
+	height: var(--post-list-img-size);
+	object-fit: cover;
 }
 
 div.eyecatch a {
-    width: 200px;
-    align-content: center;
+	width: 200px;
+	align-content: center;
 }
 
 .post a.image img {
@@ -38,13 +38,44 @@ div.eyecatch a {
 	transform: none;
 }
 
-body{
+body {
 	font-display: swap;
 }
 
 @media(max-width:768px) {
-	a.image.featured{
-		text-align: center;
-		margin: auto;
+	a.image.featured {
+		display: inline-block;
+		padding: 10px;
 	}
+}
+
+h1, h2, h3, h4, h5, h6, i, p, time, span, li, a {
+	font-display: swap;
+}
+
+p.eyecatch.center {
+	text-align: center;
+	vertical-align: baseline;
+	position: relative;
+	bottom: calc(var(--post-list-img-size) / 2);
+	background-color: rgba(79, 207, 216, 0.527);
+	color: rgb(3, 2, 2);
+	padding: 2px 8px;
+	margin: auto;
+}
+
+p.eyecatch.right, p.eyecatch.left {
+	text-align: center;
+	vertical-align: baseline;
+	position: relative;
+	bottom: calc(var(--post-list-img-size) / 2);
+	color: transparent;
+	background-color: transparent;
+}
+
+a.image.featured :not(img) {
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
 }
