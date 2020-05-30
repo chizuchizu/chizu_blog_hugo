@@ -113,3 +113,13 @@ a.image.featured :not(img) {
   justify-content: space-around;
   align-items: stretch;
 }
+body{
+	font-display: swap;
+}
+
+@media(max-width:768px) {
+	a.image.featured{
+		text-align: center;
+		margin: auto;
+	}
+}
