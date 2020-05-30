@@ -103,6 +103,10 @@ p.eyecatch.left {
   }
 }
 
+body{
+  transition: 0.6s ease-in-out;
+}
+
 a.image.featured :not(img) {
   display: inline-flex;
   flex-direction: row;
