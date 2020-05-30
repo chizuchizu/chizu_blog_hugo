@@ -20,7 +20,8 @@ time,
 span,
 li,
 a.button,
-a#back-to-top {
+a#back-to-top,
+article.post {
     color: rgb(116, 196, 186);
 }
 
