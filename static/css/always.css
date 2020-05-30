@@ -126,3 +126,8 @@ a.image.featured :not(img) {
 body {
 	font-display: swap;
 }
+
+body>div>section {
+	padding: 2vw;
+	width: calc(100vw - 4vw);
+}
