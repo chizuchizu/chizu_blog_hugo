@@ -1,8 +1,8 @@
 ---
 title: "Lorem Ipsum"
 author: "yayoi_mizuha"
-images: ["img/main/face.png"]
-textonimage: "Lorem Ipsam"
+images: ["img/eye-catch/test.png"]
+textonimage: "test"
 date: 2020-05-26T02:42:38+09:00
 draft: false
 description: "test post"
