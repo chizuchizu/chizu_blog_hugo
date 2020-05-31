@@ -6,6 +6,6 @@ draft: true
 description: "概要"
 categories: ["未分類"]
 tags: ["未指定"]
-images: ["img/main/icon.png"]
+images: ["img/main/face.png"]
 ---
 
