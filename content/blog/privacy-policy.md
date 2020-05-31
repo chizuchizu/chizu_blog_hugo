@@ -1,4 +1,4 @@
-   ---
+---
 title: "Privacy Policy"
 images: ["img/main/face.png"]
 author: "chizuchizu"

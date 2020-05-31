@@ -2,7 +2,6 @@
   <a href="{{ .RelPermalink }}" class="image featured">
     {{ range first 1 .Params.images }}
       <img src="{{ . | absURL }}" alt="">
-      {{ with $.Params.textonimage }}<!---<p class="eyecatch left">left</p>---><div><p class="eyecatch center">{{ . }}</p></div><!---<p class="eyecatch right">right</p>--->{{ end }}
     {{ end }}
   </a>
 {{ else if .Params.featured }}

@@ -48,84 +48,14 @@ div.eyecatch a {
 }
 
 
-p.eyecatch.center {
-	text-align: center;
-	vertical-align: baseline;
-	position: relative;
-	bottom: calc(var(--post-list-img-size) / 1.7);
-	background-color: rgba(79, 207, 216, 0.527);
-	color: rgb(3, 2, 2);
-	padding: 10px 8px;
-	margin: 0;
-	justify-content: center;
-}
-
-p.eyecatch.right, p.eyecatch.left {
-	text-align: center;
-	vertical-align: baseline;
-	position: relative;
-	bottom: calc(var(--post-list-img-size) / 1.7);
-	color: transparent;
-	background-color: transparent;
-}
-
-p.eyecatch.left {
-	margin-left: calc(var(--post-list-img-size) / 2.4);
-}
-
-@media (max-width: 768px) {
-	p.eyecatch.right, p.eyecatch.left {
-		text-align: center;
-		vertical-align: baseline;
-		position: relative;
-		bottom: calc(var(--post-list-img-size) / 1.7);
-		color: transparent;
-		background-color: transparent;
-		margin-left: 0;
-	}
-}
-
-@media (max-width: 1024px) {
-	article.mini-post p.eyecatch.center {
-		left: calc( 25vw - 40px - 25%);
-		bottom: calc( 100vw / 7 * 1);
-	}
-}
-
-@media (max-width: 768px) {
-	article.mini-post p.eyecatch.center {
-		left: calc( 50vw - 42px - 50%);
-		bottom: calc( 100vw / 7 * 2);
-		font-size: 300%;
-	}
-}
-
-@media (min-width: 1024px) {
-	article.mini-post p.eyecatch.center {
-		left: calc(144px - 50%);
-		bottom: 100px;
-	}
-}
-
-body {
-	transition: 0.6s ease-in-out;
-}
-
-a.image.featured :not(img) {
-	display: inline-flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: stretch;
-}
-
-body {
-	font-display: swap;
-}
-
 
 @media (max-width: 1024px) {
 	body>div>section {
 		padding: 2vw;
 		width: calc(100vw - 4vw);
 	}
+}
+
+div#disqus_thread{
+color: #333333 !important;
 }
