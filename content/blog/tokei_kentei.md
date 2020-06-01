@@ -1,8 +1,7 @@
 ---
 title: "統計検定を振り返る"
 author: "chizuchizu"
-date: 2020-05-31T21:11:12+09:00
-draft: true
+date: 2020-05-31
 description: "統計検定について振り返ります。"
 categories: ["統計検定"]
 tags: ["統計学", "統計検定"]
