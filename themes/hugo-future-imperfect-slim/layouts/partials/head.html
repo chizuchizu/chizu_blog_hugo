@@ -6,16 +6,15 @@
   {{- template "_internal/twitter_cards.html" . -}}
   {{- template "_internal/google_news.html" . -}}
   {{- if .Site.Params.enableCDN -}}
-    {{- if .Site.Params.highlightjs -}}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/{{ .Site.Params.highlightjsTheme | default "default" }}.min.css" async>{{- end -}}
+    {{- if .Site.Params.highlightjs -}}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/{{ .Site.Params.highlightjsTheme | default "default" }}.min.css" defer>{{- end -}}
     {{- range .Site.Params.cssFiles -}}
       {{- if eq . "default" -}}
         <link rel="stylesheet" href="{{ "css/normalize.css" | relURL }}">
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700" async>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" async>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" async/>
         {{- $mainCSSOptions := (dict "targetPath" "css/main.min.css" "outputStyle" "compressed") -}}
         {{- $main := resources.Get "scss/main.scss" | resources.ToCSS $mainCSSOptions | resources.Fingerprint -}}
-        <link rel="stylesheet" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" async id="aaaaa">
+        <link rel="stylesheet" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" defer id="aaaaa">
         {{- if eq (i18n "letter_direction") "RTL" -}}
           {{- $rtl := resources.Get "css/rtl.css" | minify -}}
           <link rel="stylesheet" href="{{ $rtl.RelPermalink }}" async>

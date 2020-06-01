@@ -1,6 +1,6 @@
 ---
 title : "Posts"
-images: ["img/eye-catch/_index.png"]
+images: ["img/main/face.png"]
 aliases : ["posts","articles","blog","showcase","docs"]
 author : "chizuchizu"
 tags : ["index"]

@@ -7,7 +7,7 @@ a.share-btn.line {
 a.share-btn.line:hover {
     background: #36a540;
 }
-
+div,
 h1,
 h2,
 h3,
@@ -20,7 +20,8 @@ time,
 span,
 li,
 a.button,
-a#back-to-top {
+a#back-to-top,
+article.post {
     color: rgb(116, 196, 186);
 }
 
@@ -91,6 +92,9 @@ article.mini-post header {
 
 section#recent-posts .mini-post{
     border: #9ce0db;
+}
+div#disqus_thread{
+    color: rgb(116, 196, 186) !important;
 }
 /* @media (prefers-color-scheme: dark) {}
    */
