@@ -114,8 +114,8 @@ mjx-container:hover {
 }
 
 .socnet-icons .fa-instagram{
-    text-stroke: .5px transparent;
-    -webkit-text-stroke: .5px transparent;
+    text-stroke: transparent;
+    -webkit-text-stroke: transparent;
 }
 /* @media (prefers-color-scheme: dark) {}
    */
