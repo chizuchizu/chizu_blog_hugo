@@ -59,3 +59,53 @@ div.eyecatch a {
 div#disqus_thread{
 color: #333333 !important;
 }
+
+mjx-container {
+	background-color: rgba(113, 139, 133, 0.199);
+	color: darkslategrey;
+	padding: 15px 0% 15px 0%;
+	margin: 3% 10% 3% 10% !important;
+	border-radius: 10px;
+}
+mjx-container:hover {
+	background-color: rgb(226, 227, 235);
+	transition: color ease;
+
+}
+.socnet-icons .fa-github{
+	color: #24292e;
+}
+.socnet-icons .fa-youtube{
+	color: #FF0000;
+}
+.socnet-icons .fa-instagram{
+	background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+	background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+	text-strole: 1px #112233;
+	-webkit-text-stroke: .1px #112233;
+}
+.socnet-icons .fa-instagram:hover{
+	background: #2abeec;
+	background-clip: text;
+	-webkit-background-clip: text;
+	text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+}
+.socnet-icons .fa-twitter{
+	color: #1da1fc;
+}
+
+.socnet-icons .fa-brain {
+	color: #20beff;
+}
+.socnet-icons .fa-code {
+	color: black;
+}
+
+.socnet-icons .fa-envelope {
+	color: rgb(208, 135, 226);
+}
