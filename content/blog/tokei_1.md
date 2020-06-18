@@ -2,7 +2,6 @@
 title: "オレオレ流確率分布の手記"
 author: "chizuchizu"
 date: 2020-06-18
-draft: true
 description: "できるだけ感覚を意識して確率分布について書きます。"
 categories: ["統計学"]
 tags: ["統計学"]
