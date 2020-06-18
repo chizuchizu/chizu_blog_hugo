@@ -6,7 +6,7 @@ hugo new blog/post.md
 ```
 ## ライブビュー編集モード
 ```
-hugo sever
+hugo server -w --noHTTPCache --disableFastRender -v
 # http://localhost:1313 にアクセス
 ```
 ## 公開用圧縮変換モード
