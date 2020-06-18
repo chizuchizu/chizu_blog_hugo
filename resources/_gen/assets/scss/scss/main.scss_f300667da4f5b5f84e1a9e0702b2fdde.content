@@ -872,7 +872,7 @@ table {
         align-items: center;
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
-        max-width: 50%; }
+        max-width: 70%; }
         .post > footer .stats li:hover ul li, .post > footer .stats li:active ul li {
           visibility: visible;
           opacity: 1;
@@ -930,7 +930,7 @@ table {
     margin: 1em;
     width: 50%; }
     .pagination .button .previous div, .pagination .button .next div {
-      display: none; }
+      display: block; }
       @media (min-width: 425px) {
         .pagination .button .previous div, .pagination .button .next div {
           display: block;
