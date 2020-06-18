@@ -106,5 +106,16 @@ mjx-container {
 mjx-container:hover {
     background-color: rgb(49, 49, 49);
 }
+.socnet-icons .fa-code {
+	color: whitesmoke;
+}
+.socnet-icons .fa-github {
+	color: #f6f8fa;
+}
+
+.socnet-icons .fa-instagram{
+	text-strole: .3px #afbecc;
+	-webkit-text-stroke: .3px #afbecc;
+}
 /* @media (prefers-color-scheme: dark) {}
    */

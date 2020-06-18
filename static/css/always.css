@@ -109,3 +109,6 @@ mjx-container:hover {
 .socnet-icons .fa-envelope {
 	color: rgb(208, 135, 226);
 }
+.socnet-icons :hover{
+	color: #2abeec;
+}
