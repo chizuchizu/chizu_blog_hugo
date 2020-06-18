@@ -3,5 +3,5 @@ content/blog/aa.md
 /public/
 *.content
 resources
-.idea/
+.idea
 __pycache__
