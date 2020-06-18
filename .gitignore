@@ -1,3 +1,5 @@
 public
 content/blog/aa.md
 /public/
+*.content
+resources
