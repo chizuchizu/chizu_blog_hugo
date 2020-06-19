@@ -71,4 +71,5 @@ jobs:
       - name: Send Files
         run: |
           cd $PWD
-          scp -v -P 10022 -r public/* chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
+          #scp -v -P 10022 -r public/* 
+          rsync -avzP -e "ssh -p 10022" public/* chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
