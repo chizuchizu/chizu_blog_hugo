@@ -85,8 +85,8 @@ mjx-container:hover {
 	-webkit-background-clip: text;
 	text-fill-color: transparent;
 	-webkit-text-fill-color: transparent;
-	text-strole: 1px #112233;
-	-webkit-text-stroke: .1px #112233;
+	text-stroke: .5px transparent;
+	-webkit-text-stroke: .5px transparent;
 }
 .socnet-icons .fa-instagram:hover{
 	background: #2abeec;

@@ -11,11 +11,12 @@ hugo server -w --noHTTPCache --disableFastRender -v
 ```
 ## 公開用圧縮変換モード
 ```
-hugo --minify
+hugo --minify --gc
 ```
 
 ## TIPS
 ```
+---
 title: "Aa"
 author: "chizuchizu"
 date: 2020-05-26T02:42:38+09:00

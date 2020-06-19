@@ -3,3 +3,7 @@ content/blog/aa.md
 /public/
 *.content
 resources
+/.idea/
+.idea
+__pycache__
+/__pycache__/
