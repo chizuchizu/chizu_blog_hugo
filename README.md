@@ -11,7 +11,7 @@ hugo server -w --noHTTPCache --disableFastRender -v
 ```
 ## 公開用圧縮変換モード
 ```
-hugo --minify
+hugo --minify --gc
 ```
 
 ## TIPS
