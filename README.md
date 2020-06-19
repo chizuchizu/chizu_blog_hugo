@@ -16,6 +16,7 @@ hugo --minify
 
 ## TIPS
 ```
+---
 title: "Aa"
 author: "chizuchizu"
 date: 2020-05-26T02:42:38+09:00
