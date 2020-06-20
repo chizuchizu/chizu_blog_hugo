@@ -21,9 +21,6 @@
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 <script>
-  async function main(){
-    await wait(0.9)
-  }
   var delaycss1 = document.createElement('link');
   delaycss1.rel = 'stylesheet';
   delaycss1.href = "/css/transition.css"
@@ -38,27 +35,4 @@
   document.head.appendChild(delaycss2);
 </script>
 <script src="https://kit.fontawesome.com/be54eb011a.js" crossorigin="anonymous" async></script>
-<script src="/js/ga-cookie-opt-in.js"></script>        
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" async>
-<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_CHTML&locale=jp"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script>
-      $(window).on('load', function(){
-        $('body').removeClass('fadeout');
-        $('div').removeClass('dot-elastic');
-    });
-    $(function() {
-      // ハッシュリンク(#)と別ウィンドウでページを開く場合はスルー
-      $('a:not([href^="#"]):not([target])').on('click', function(e){
-        e.preventDefault(); // ナビゲートをキャンセル
-        url = $(this).attr('href'); // 遷移先のURLを取得
-        if (url !== '') {
-          $('body').addClass('fadeout');  // bodyに class="fadeout"を挿入
-          setTimeout(function(){
-            window.location = url;  // 0.8秒後に取得したURLに遷移
-          }, 800);
-        }
-        return false;
-      });
-    });
-</script>
+<script src="/js/ga-cookie-opt-in.js"></script>

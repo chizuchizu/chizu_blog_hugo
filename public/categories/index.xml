@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on I&#39;m chizuchizu</title>
+    <link>https://chizuchizu.com/categories/</link>
+    <description>Recent content in Categories on I&#39;m chizuchizu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 26 May 2020 02:42:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://chizuchizu.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>test</title>
+      <link>https://chizuchizu.com/categories/test/</link>
+      <pubDate>Tue, 26 May 2020 02:42:38 +0900</pubDate>
+      
+      <guid>https://chizuchizu.com/categories/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

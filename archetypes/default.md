@@ -4,7 +4,8 @@ author: "chizuchizu"
 date: {{ .Date }}
 draft: true
 description: "概要"
-categories: [""]
-tags: [""]
+categories: ["未分類"]
+tags: ["未指定"]
+images: ["img/main/icon.png"]
 ---
 

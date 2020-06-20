@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I&#39;m chizuchizu</title>
+    <link>https://chizuchizu.com/</link>
+    <description>Recent content on I&#39;m chizuchizu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 26 May 2020 02:42:38 +0900</lastBuildDate>
+    
+	<atom:link href="https://chizuchizu.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://chizuchizu.com/blog/test/</link>
+      <pubDate>Tue, 26 May 2020 02:42:38 +0900</pubDate>
+      
+      <guid>https://chizuchizu.com/blog/test/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+6 5 4 3 2 1 0</description>
+    </item>
+    
+    <item>
+      <title>初めての投稿</title>
+      <link>https://chizuchizu.com/blog/first_submit/</link>
+      <pubDate>Mon, 25 May 2020 14:04:52 +0900</pubDate>
+      
+      <guid>https://chizuchizu.com/blog/first_submit/</guid>
+      <description>間違えてxserverの中のWordPressの中身を消してしまったのでHugoで復活しました。
+よろしくお願いします。
+このテーマがめっちゃお洒落なのでWordPressを捨ててでも使う価値はありそうです。
+アイコンの主張が強いので、大きさを変更しようと思っています。(n日後)</description>
+    </item>
+    
+    <item>
+      <title>このブログを作成した理由とこれから</title>
+      <link>https://chizuchizu.com/blog/about_this_blog/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0900</pubDate>
+      
+      <guid>https://chizuchizu.com/blog/about_this_blog/</guid>
+      <description>最近ブログを作ったり閉じたりと忙しいですが、方針がまとまってきたので報告します。
+時系列で話すとグダグダになりそうなので、このブログについてから話そうと思います
+これかっこよくない？ Hugoで作りました。themeは Hugo Future Imperfect を使っています。
+何で急にこんなことに手を出したかというのは後で話しますｗ
+ブログのコンセプト コンセプトとしては 美しく、わかりやすく ということを考えています。ほーん。あとは 自分にしか書けないこと を書きたいと思っています。 きっちりと意味をもたせるのは難しいにしても、目的がはっきりした記事を書いていきたいと思っています。
+簡単にいうとクソ記事を減らすということですね。盛った発言はやめます。（してるとは言ってない）
+やりたいこと せっかくフロント側に興味を持てたので、htmlやCSSをいじってみたいと思っています。
+元々はvue.jsでブログを書く予定だったのですが、インストール中にターミナルを強制終了させてしまって何もかもが狂ったので諦めました。 Reactにも興味があるので、JSをちゃんと勉強してからやりたいなとは思っています。
+こういうサーバー側触ったのが今まで一度もなくて一昨日初めてSSH接続やFTPソフトを理解しました。すごく面白そうだったので、 こっち側にも入門したいなとは思っています。
+MarkDown記法にあまり慣れていないので拙いかもしれませんが、個人的に嬉しいことがあります。それは わざわざマウスを触る必要がないという ことです。僕は趣味でタイピングをしているので、このタイピングを活かすためにもできる限りマウスは触りたくないんですよね。（特に長文を打つときは）
+今までMarkDown記法を敬遠していましたが、最近その良さをわかってきた気がします。まだ 少ない機能 しか知らないし使えませんが、追々は MarkDownの申し子と呼ばれるようになりたいです。
+今気付いたんですけど、WordPress機能が多すぎて目が疲れるんですけど、MarkDownは背景も黒だし（IDEの設定）見やすくていくらでも記事 作れそうだなと思いましたｗ
+どうしてこうなったか 長くなるのでわけます。物語は非常に長いです。
+マイクラサーバー 友人がある話をしてきました。
+ マイクラサーバー建てて公開したいんだよな〜 マイクラ持ってないしやるとしても高校生からだけど
+ ふむ。お主、度胸あるな。とはいえ、サーバーは僕自身一切やったことなかったのでほほーんという感じでした。
+が、なぜかは覚えていませんが面白そうだったのでサーバーを建ててみました。面白かったです。（以上）
+どちらかというとUbuntu持ってんのにサーバー知らないのが嫌だったというのもありました。良い機会になりました。 友人同士でやることを想定していたので秘密鍵などの認証は諦めましたが、無事サーバーを建てることに成功しました。記事を書くかどうかは迷っています。
+悪夢はここから始まります。
+俺のブログもサーバーだよな この安易な考えが chizuchizu.com を破滅へと向かう原因になったのです……
+マイクラサーバーを建てられたんならサーバー動かせんじゃね？というノリで、かっこよさそうなVue.jsを使った適当なサイトでも公開してみたいな という運びで、サブドメインをとって適当にやりました。
+ローカルからサーバーにファイルをアップするときにはFTPソフトというものを使います。これはとても便利で、基本的にOSのファイルと同じような機能を 持っています。
+元々 chizuchizu.com はWordPressで作成していたので、WPのフォルダやファイルがたくさんありました。ほほーんと思いながら見過ごしてましたが、 あれを消したらブログが消えるということを私はまだ知りませんでした。
+別ドメインでvue.js公開できたhttps://t.co/jk5mBlM3oM pic.twitter.com/QDsCt3OaLT
+&amp;mdash; チズチズ (@chizu_potato) May 23, 2020  その後、vue.jsが使えなくなりHugoを始める。（謎）
+Hugo最高！ めっちゃ綺麗なサイトが無料で使えるし最高じゃん！なにこれ！！という感じでした。 調子載ったままFTPにぶち込んだら間違えてWPのフォルダに入れてしまいました。 消そうと思ったらWPごと消しちゃってあら大変。</description>
+    </item>
+    
+  </channel>
+</rss>

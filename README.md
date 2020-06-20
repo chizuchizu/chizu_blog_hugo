@@ -6,17 +6,16 @@ hugo new blog/post.md
 ```
 ## ライブビュー編集モード
 ```
-hugo server -w --noHTTPCache --disableFastRender -v
+hugo sever
 # http://localhost:1313 にアクセス
 ```
 ## 公開用圧縮変換モード
 ```
-hugo --minify --gc
+hugo --minify
 ```
 
 ## TIPS
 ```
----
 title: "Aa"
 author: "chizuchizu"
 date: 2020-05-26T02:42:38+09:00
