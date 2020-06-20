@@ -36,7 +36,7 @@ toggle.addEventListener("click", () => {
   } else if (icon_toggle.className === "fas fa-sun fa-lg") {
     setTheme("light");
   }
-  $('body').removeClass("fadeout");
+  setTimeout('document.body.classList.remove(‘item’);', 800);
 });
 
 function setTheme(mode) {
@@ -49,5 +49,5 @@ function setTheme(mode) {
     icon_toggle.className = "fas fa-moon fa-lg";
     localStorage.setItem("dark-mode-storage", mode);
   }
-  $('body').removeClass("fadeout");
+  setTimeout('document.body.classList.remove(‘item’);', 800);
 }
