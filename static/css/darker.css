@@ -141,5 +141,16 @@ mjx-container:hover,div.MathJax_Display:hover,div.content p div.MathJax_PHTML_Di
 	transition: color ease;
 
 }
+strong{
+	box-shadow: 0 -.5rem 0 0 #a34c32b2 inset;
+  }
+  div.content a:link{
+	box-shadow: 0 -.5rem 0 0 #526296b2 inset;
+  }  
+  div.content a:link:hover{
+	box-shadow: 0 -.8rem 0 0 #52629663 inset;
+    transition: .3s ease-in-out;
+    color: #2ebaae
+  }
 /* @media (prefers-color-scheme: dark) {}
    */

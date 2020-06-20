@@ -137,3 +137,14 @@ body::after {
 	  z-index: 100004310;
 	  transform: scale(1,3);
   }
+  strong{
+	box-shadow: 0 -.5rem 0 0 #d8a494b2 inset;
+  }
+  div.content a:link{
+	box-shadow: 0 -.5rem 0 0 #8ba1e9b2 inset;
+  }  
+  div.content a:link:hover{
+	color: darkblue;
+	box-shadow: 0 -.8rem 0 0 #8ba1e963 inset;
+	transition: .3s ease-in-out;
+  }
