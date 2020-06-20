@@ -7,7 +7,7 @@ a.share-btn.line {
 a.share-btn.line:hover {
     background: #36a540;
 }
-
+div,
 h1,
 h2,
 h3,
@@ -92,6 +92,33 @@ article.mini-post header {
 
 section#recent-posts .mini-post{
     border: #9ce0db;
+}
+div#disqus_thread{
+    color: rgb(116, 196, 186) !important;
+}
+
+mjx-container {
+	background-color: rgba(128, 128, 128, 0.404);
+	color: antiquewhite;
+	padding: 15px 0% 15px 0%;
+	margin: 3% 10% 3% 10% !important;
+}
+mjx-container:hover {
+    background-color: rgb(49, 49, 49);
+}
+.socnet-icons .fa-code {
+	color: whitesmoke;
+}
+.socnet-icons .fa-github {
+	color: #f6f8fa;
+}
+
+.socnet-icons .fa-instagram{
+    text-stroke: .5px transparent;
+    -webkit-text-stroke: .5px transparent;
+}
+body::after{
+    background-color: rgb(38, 24, 44);
 }
 /* @media (prefers-color-scheme: dark) {}
    */

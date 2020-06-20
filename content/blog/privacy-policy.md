@@ -1,6 +1,6 @@
-   ---
+---
 title: "Privacy Policy"
-images: ["img/eye-catch/privacy-policy.png"]
+images: ["img/main/face.png"]
 author: "chizuchizu"
 date: 2020-05-29T03:39:25+09:00
 draft: false
