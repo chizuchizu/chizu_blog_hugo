@@ -23,7 +23,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.2.0
         with:
-          hugo-version: "0.71.1"
+          hugo-version: "latest"
+          extended: true
        
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
@@ -70,4 +71,5 @@ jobs:
       - name: Send Files
         run: |
           cd $PWD
-          scp -v -P 10022 -r public/* chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
+          #scp -v -P 10022 -r public/* 
+          rsync -avzP -e "ssh -p 10022" public/* chizuchizu@sv7521.xserver.jp:chizuchizu.com/public_html/
