@@ -81,7 +81,8 @@ html
   <meta charset="UTF-8">
   <title>Example HTML5 Document</title>
 </head>
-<body>
+<body class="fadeout">
+<div class="loader">読み込み中...</div>
   <p>Test</p>
 </body>
 </html>
@@ -94,7 +95,8 @@ html
       <meta charset="UTF-8">
       <title>Example HTML5 Document</title>
     </head>
-    <body>
+    <body class="fadeout">
+<div class="loader">読み込み中...</div>
       <p>Test</p>
     </body>
     </html>
@@ -107,7 +109,8 @@ html
   <meta charset="UTF-8">
   <title>Example HTML5 Document</title>
 </head>
-<body>
+<body class="fadeout">
+<div class="loader">読み込み中...</div>
   <p>Test</p>
 </body>
 </html>

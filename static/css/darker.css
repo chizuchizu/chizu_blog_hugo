@@ -117,5 +117,8 @@ mjx-container:hover {
     text-stroke: .5px transparent;
     -webkit-text-stroke: .5px transparent;
 }
+body::after{
+    background-color: rgb(38, 24, 44);
+}
 /* @media (prefers-color-scheme: dark) {}
    */
