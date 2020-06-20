@@ -119,6 +119,38 @@ mjx-container:hover {
 }
 body::after{
     background-color: rgb(38, 24, 44);
+    display: block;
 }
+html::after{
+    background-color: rgb(38, 24, 44);
+    color: rgb(38, 24, 44);
+    transition: 1s ease-in-out;
+    transition-delay: 1s;
+    transition-timing-function: cubic-bezier();
+}
+
+mjx-container,div.MathJax_Display,div.content p div.MathJax_PHTML_Display,div.MathJax_MathML,div.MathJax_SVG_Display,span.MJXc-display{
+	background-color: rgba(113, 139, 133, 0.199);
+	color: darkslategrey;
+	padding: 15px 0% 15px 0%;
+	margin: 3% 10% 3% 10% !important;
+	border-radius: 10px;
+}
+mjx-container:hover,div.MathJax_Display:hover,div.content p div.MathJax_PHTML_Display:hover,div.MathJax_MathML:hover,div.MathJax_SVG_Display:hover,span.MJXc-display:hover {
+	background-color: rgb(55, 58, 85);
+	transition: color ease;
+
+}
+strong{
+	box-shadow: 0 -.5rem 0 0 #a34c32b2 inset;
+  }
+  div.content a:link{
+	box-shadow: 0 -.5rem 0 0 #526296b2 inset;
+  }  
+  div.content a:link:hover{
+	box-shadow: 0 -.8rem 0 0 #52629663 inset;
+    transition: .3s ease-in-out;
+    color: #2ebaae
+  }
 /* @media (prefers-color-scheme: dark) {}
    */
