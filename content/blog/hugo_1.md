@@ -17,5 +17,3 @@ images: ["img/main/icon.png"]
 3. オープンソース化
 4. GitHub Actions
 5. コントリビューターの紹介、新機能
-
-
