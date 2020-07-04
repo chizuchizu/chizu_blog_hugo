@@ -2,7 +2,7 @@
 title: "KaggleExpert になるまで"
 author: "chizuchizu"
 date: 2020-07-01T22:28:27+09:00
-draft: true
+draft: false
 description: "ようやく……Kaggle Expertになったぜ"
 categories: ["Kaggle"]
 tags: ["Kaggle"]
@@ -12,7 +12,7 @@ tags: ["Kaggle"]
 
 嬉しい
 
-![image-20200701223031797](/home/yuma/.config/Typora/typora-user-images/image-20200701223031797.png)
+![image-20200701223031797](img/main/Screenshot from 2020-07-01 22-30-29.png)
 
 
 
