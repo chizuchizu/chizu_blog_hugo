@@ -12,7 +12,7 @@ tags: ["Kaggle"]
 
 嬉しい
 
-![image-20200701223031797](static/img/main/Screenshot from 2020-07-01 22-30-29.png)
+![image-20200701223031797](/img/main/Screenshot2020-07-01-22-30-29.png)
 
 
 

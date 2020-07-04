@@ -152,5 +152,9 @@ strong{
     transition: .3s ease-in-out;
     color: #2ebaae
   }
+
+  div.MathJax_MenuItem{
+    color: black;
+}
 /* @media (prefers-color-scheme: dark) {}
    */
