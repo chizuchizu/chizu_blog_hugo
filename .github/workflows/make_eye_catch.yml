@@ -65,8 +65,8 @@ jobs:
           chmod 600 .ssh/*
           ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp  -o StrictHostKeyChecking=no
           
-      # - name: Delete Remote Files
-        # run: ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp "rm -r chizuchizu.com/public_html/*"
+      - name: Delete Remote Files
+        run: ssh -v -T -p 10022 chizuchizu@sv7521.xserver.jp "rm -r chizuchizu.com/public_html/*"
         
       - name: Send Files
         run: |
