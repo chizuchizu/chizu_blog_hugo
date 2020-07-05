@@ -2,7 +2,7 @@
 title: "オレオレ最強ブログ環境を作った"
 author: "chizuchizu"
 date: 2020-06-06T17:07:39+09:00
-draft: true
+draft: false
 description: "いろんなものを自動化させました"
 categories: ["ブログ"]
 tags: ["ブログ"]
