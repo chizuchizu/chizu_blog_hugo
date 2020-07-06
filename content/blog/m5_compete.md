@@ -92,13 +92,13 @@ private：コンペが終わるまでわからないスコア（これで最終�
 
 ### single model
 
-![](img/main/Screenshotfrom-2020-07-06-18-07-10.png)
+![](/img/main/Screenshotfrom-2020-07-06-18-07-10.png)
 
 万物の根源とも言えるようなシンプルさ。
 
 ### day by day
 
-![](img/main/Screenshotfrom-2020-07-06-18-07-10.png)
+![](/img/main/Screenshotfrom-2020-07-06-18-07-10.png)
 
 デイ・バーイ・デイ　ARASHIですかね。いいえ、違います。
 
@@ -110,7 +110,7 @@ private：コンペが終わるまでわからないスコア（これで最終�
 
 ### recursive
 
-![](img/main/Screenshotfrom-2020-07-06-18-22-14.png)
+![](/img/main/Screenshotfrom-2020-07-06-18-22-14.png)
 
 急にナックルを投げ出したピッチャー並の異端児感があります。
 
@@ -220,7 +220,7 @@ csvではなくてpickleを使いましょう。（といってもほとんど�
 
 https://www.kaggle.com/c/m5-forecasting-accuracy/discussion/163410
 
-![kaggle_300](img/main/kaggle_300.png)
+![kaggle_300](/img/main/kaggle_300.png)
 
 # おわりに
 
