@@ -2,7 +2,7 @@
 title: "前提知識ゼロで理解する M5コンペ"
 author: "chizuchizu"
 date: 2020-07-06T06:12:01+09:00
-draft: true
+draft: false
 description: "KaggleのM5コンペを誰でもわかるように"
 categories: ["Kaggle"]
 tags: ["Kaggle"]
