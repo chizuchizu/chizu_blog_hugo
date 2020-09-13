@@ -34,9 +34,8 @@ https://www.slideshare.net/HaradaKei/devsumi-2018summer
 
 このスライドの解説がわかりやすいです。細かいところは省きますが、「目的の何か」の達成率等を数値化して競うものです。
 
-(slideshareの埋め込みリンク貼ったはずなのに上手く表示されて無くてかなしい)
-<iframe src="//www.slideshare.net/ideshow/embed_code/key/r5UBmaPuheL2pF?startSlide=5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/HaradaKei/devsumi-2018summer" title="Devsumi 2018summer" target="_blank">Devsumi 2018summer</a> </strong> from <strong><a href="//www.slideshare.net/HaradaKei" target="_blank">Harada Kei</a></strong> </div>
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/r5UBmaPuheL2pF" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/HaradaKei/devsumi-2018summer" title="Devsumi 2018summer" target="_blank">Devsumi 2018summer</a> </strong> from <strong><a href="//www.slideshare.net/HaradaKei" target="_blank">Harada Kei</a></strong> </div>
 
 
 ## M5とは何なのか

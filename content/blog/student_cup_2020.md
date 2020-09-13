@@ -43,7 +43,9 @@ https://signate.jp/competitions/281
 
 反省会で共有したスライドです！
 
+<div>
 <script async class="speakerdeck-embed" data-id="707dd07342954683a6299fb30fe6521b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</div>
 
 ### モデル紹介
 
