@@ -2,7 +2,7 @@
 title: "Student cup 2020の振り返り"
 author: "chizuchizu"
 date: 2020-09-13T08:29:24+09:00
-draft: true
+draft: false
 description: "夏に開催されたSIGNATE主催のstudent cupについてです"
 categories: ["コンペ"]
 tags: ["コンペ"]
