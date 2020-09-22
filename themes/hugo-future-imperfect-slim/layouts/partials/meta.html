@@ -1,5 +1,8 @@
 <meta charset="utf-8">
 <title>{{ .Title }}{{ if ne .Title .Site.Title }} - {{ .Site.Title }}{{ end }}</title>
+
+<meta name="google-site-verification" content="o6MmIToqkkDFkZqNFOPWwErJbwmMx8fHlN0OuDcdrEs" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- TODO: Do we want to add rel=author? -->
 {{ if .Site.Params.meta.favicon }}
@@ -15,3 +18,50 @@
   <meta name="msapplication-TileColor" content="{{ .Site.Params.meta.msColor }}">
   <meta name="theme-color" content="{{ .Site.Params.meta.iOSColor }}">
 {{ end }}
+
+<!--https://github.com/praveenjuge/hugo-SEO-meta-tags-->
+
+<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta itemprop="name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+<meta name="description" content="{{ .Params.description }}" />
+<meta itemprop="description" content="{{ .Params.description }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+<meta name="twitter:description" content="{{ .Params.description }}" />
+<meta name="url" content="{{ .Permalink }}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+<meta property="og:locale" content="{{ .Language.Lang }}" />
+<meta name="language" content="{{ .Language.LanguageName }}" />
+{{ range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+{{ end }}
+<meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href='{{ "sitemap.xml" | absURL }}' />
+
+{{ with .OutputFormats.Get "RSS" }}
+<link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+<link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
+<!-- Manifest File -->
+<link rel="manifest" href='{{ "manifest.json" | absURL }}' />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Theme Color -->
+<meta name="theme-color" content="#141414" />
+<meta name="msapplication-TileColor" content="#141414" />
+
+<meta name="keywords" content="" />
+<meta name="imagemode" content="force" />
+<meta name="coverage" content="Worldwide" />
+<meta name="distribution" content="Global" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.sitename }}" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-touch-fullscreen" content="yes" />

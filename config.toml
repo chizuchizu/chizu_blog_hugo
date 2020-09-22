@@ -147,3 +147,8 @@ disableLanguages        = ["en"]
   email                 = "ochimasumi@gmail.com"
   atcoder               = "chizuchizu"
   kaggle                = "chizuchizu"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
