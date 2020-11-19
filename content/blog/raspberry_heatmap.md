@@ -5,7 +5,7 @@ date: 2020-09-17T15:54:38+09:00
 images: ["/img/main/12.jpg"]
 draft: false
 description: "赤外線センサとseabornを使ってリアルタイム温度検知機構を作りました"
-categories: ["Raspberrry Pi", "python"]
+categories: ["Raspberry Pi", "python"]
 tags: ["Raspberry Pi", "python"]
 ---
 
