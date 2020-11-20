@@ -19,9 +19,20 @@ jobs:
 
     steps:
       - uses: actions/checkout@master   # リポジトリのデータを仮想環境にチェックアウトしてくるアクションを実行する
+      - name: log untrusted output
+        run: |
+
+          # disable command workflow processing
+          echo "::stop-commands::`echo -n ${{ github.token }} | sha256sum | head -c 64`"
+
+          # log untrusted output
+          echo "untrusted output"
+
+          # enable workflow command processing
+          echo "::`echo -n ${{ github.token }} | sha256sum | head -c 64`::"
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.2.0
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
           extended: true
