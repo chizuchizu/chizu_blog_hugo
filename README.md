@@ -25,6 +25,15 @@ description: "概要"
 categories: ["aaa"]
 tags: ["未指定"]
 ---
+
+---
+title: "name"
+author: "chizuchizu"
+date: 2021-01-01
+tags: ["blog"]
+---
+
+
 ```
 内の'draft'を'true'に変更すると公開設定になります。
 
