@@ -41,3 +41,6 @@ tags: ["blog"]
 ![](/img/main/*.png)
 ```
 パス設定は気をつけて。
+
+## 画像保管庫
+https://github.com/Chizuchizu/chizu_blog_hugo/tree/master/static/img/main
