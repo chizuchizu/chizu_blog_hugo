@@ -4,7 +4,7 @@ author: "chizuchizu"
 date: 2021-01-04
 tags: ["math"]
 images: ["img/main/Black Technology Blog Banner.jpg"]
-draft: true
+draft: false
 ---
 
 # きっかけ
