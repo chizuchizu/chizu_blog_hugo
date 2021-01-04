@@ -4,7 +4,7 @@ baseurl                 = "https://chizuchizu.com/"
 DefaultContentLanguage  = "ja"
 title                   = "I'm chizuchizu"
 theme                   = "hugo-future-imperfect-slim"
-paginate                = 3
+paginate                = 10
 disqusShortname         = "chizu-blog-hugo"
 googleAnalytics         = "UA-130443536-1"
 pluralizeListTitles     = false
@@ -23,8 +23,8 @@ disableLanguages        = ["en"]
   socialShare           = ["twitter","facebook","line","email"]
 
   [params.meta]
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
-    author              = "HTML5UP and Hugo"
+    description         = "数学/Python/Linux/日常にまつわるチズチズという人のつぶやきです。"
+    author              = "chizuchizu"
     favicon             = false
     svg                 = true
     faviconVersion      = "1"
