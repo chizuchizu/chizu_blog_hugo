@@ -3,7 +3,7 @@ title: "開集合の定義の誤解が解けた"
 author: "chizuchizu"
 date: 2021-01-04
 tags: ["math"]
-images: ["img/main/Black Technology Blog Banner.jpg"]
+images: ["/img/main/Black Technology Blog Banner.jpg"]
 draft: false
 ---
 
@@ -14,13 +14,15 @@ draft: false
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">開集合🤔 <a href="https://t.co/OJeb9UumIf">pic.twitter.com/OJeb9UumIf</a></p>&mdash; チズチズ (@chizu_potato) <a href="https://twitter.com/chizu_potato/status/1345932815523725312?ref_src=twsrc%5Etfw">January 4, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-論点は、＝があるのと無いのとで何が変わるかということです。
+開集合の定義において、包含関係の記号は$$\subset$$と$$\subseteq$$のどちらが正しいのか気になりました。
+
+
 
 ## 答え
 
 とりあえず
 
-$$\subset$$と$$\subsetq$$は部分集合という意味で同値であるとします。
+$$\subset$$と$$\subseteq$$は部分集合という意味で同値であるとします。
 
 ### 一般の距離空間上では偽
 離散空間上で1点集合を作った時、真部分集合は存在しません。
