@@ -43,4 +43,4 @@ tags: ["blog"]
 パス設定は気をつけて。
 
 ## 画像保管庫
-https://github.com/Chizuchizu/chizu_blog_hugo/tree/master/static/img/main
+https://github.com/Chizuchizu/chizu_blog_hugo/upload/master/static/img/main
