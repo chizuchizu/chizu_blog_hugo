@@ -1,8 +1,9 @@
 ---
-title: "Kaggle用にGCPを建てる用のメモ"
+title: "KagglerのためのGCPのメモ"
 author: "chizuchizu"
 date: 2021-01-10
-draft: true
+draft: false
+images: ["/img/main/Yellow and Blue Initiative Blog Banner.png"]
 tags: ["kaggle", "gcp"]
 ---
 
@@ -71,8 +72,8 @@ gcloud compute instances create $INSTANCE_NAME \
   --image-family=$IMAGE_FAMILY \
   --image-project=deeplearning-platform-release \
   --maintenance-policy=TERMINATE \
-  --accelerator="type=nvidia-tesla-V100,count=1" \  # gpuは適宜変更
-  --metadata="install-nvidia-driver=True" \  # ドライバーのインストール
+  --accelerator="type=nvidia-tesla-t4,count=1" \
+  --metadata="install-nvidia-driver=True" \
   --machine-type=$INSTANCE_TYPE \
   --preemptible  # プリエンプティブルON
 ```
@@ -108,10 +109,21 @@ kaggle-container-v20201231-debian-9                            deeplearning-plat
 
 ## Jupyter Labの立ち上げ
 
-先程のイメージでtf等を選択していれば、予めPythonの環境が入っているのでDocker等を使って環境構築をする必要はありません。
-あとは必要なライブラリをインストールして使うだけです。ただ、エディタが無い👀
+先程のイメージでtf等を選択していれば、予めPythonの環境が入っているのでDocker等を使って環境構築をする必要はなくなる。
+あとは必要なライブラリをインストールして使うだけ。ただ、エディタが無い👀
 
-GCPのAI PlatformはJupyter Labをサポートしているので、簡単に立ち上げることができます。
+GCPのAI PlatformはJupyter Labをサポートしているので、簡単に立ち上げられる！
+
+SSH通信を一回でもしていないとなぜかJupyter Labに繋げられない(´；ω；｀)
+```bash
+export PROJECT_NAME="hogehoge"
+gcloud beta compute ssh \
+  --zone $ZONE \
+  $INSTANCE_NAME \
+  --project $PROJECT_NAME \
+  
+```
+そしたらexitしてローカルに戻ってJupyter Labを起動しよう。
 
 ```bash
 export PROJECT_ID="hogehoge"
@@ -121,11 +133,62 @@ gcloud compute ssh --project $PROJECT_ID --zone $ZONE \
   $INSTANCE_NAME -- -L 8080:localhost:8080
 ```
 
-そしたら、ローカルでアクセスしたら接続できます。
+ローカルから接続できる。
+
 [http://localhost:8080](http://localhost:8080)
 
+やったぜ！！！
+![](https://cdn.discordapp.com/attachments/795149266258493494/797756928071565342/unknown.png)
 
-### ポートフォワーディング
+
+# 使いそうなコマンド
+
+### インスタンスの起動、停止
+
+```bash
+gcloud compute instances start $INSTANCE_NAME
+
 ```
-gcloud services enable iap.googleapis.com
+
+```bash
+gcloud compute instances stop $INSTANCE_NAME
 ```
+
+### プロジェクト一覧
+```bash
+gcloud projects list
+```
+
+### プロジェクトの切り替え
+```bash
+gcloud config set project $INSTANCE_NAME
+```
+
+### インスタンス一覧
+```bash
+gcloud compute instances list
+```
+
+### インスタンスにssh接続
+```bash
+gcloud compute ssh $INSTANCE_NAME
+```
+
+# TPUの場合
+
+大体はGPUと同じだけどコマンドの使い勝手が違うところがややこしい。こっちは予めtf（デフォルトでlatest）がインストールされてるそう。
+
+リファレンス読んでるとプリエンプティブルにするときはTPUとVM自体の両方選択しないといけない感じがする。
+
+```bash
+ctpu up --project=$PROJECT_ID \
+  --zone=$ZONE \
+  --name=$INSTANCE_NAME \
+  --machine-type=$INSTNACE_TYPE \
+  --tpu-size=v2-8 \
+  --preemptible  \
+  --preemptible-vm
+```
+
+
+[CTPU リファレンス](https://cloud.google.com/tpu/docs/ctpu-reference)
