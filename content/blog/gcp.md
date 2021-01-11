@@ -75,6 +75,7 @@ gcloud compute instances create $INSTANCE_NAME \
   --accelerator="type=nvidia-tesla-t4,count=1" \
   --metadata="install-nvidia-driver=True" \
   --machine-type=$INSTANCE_TYPE \
+  --create-disk size=200,type=pd-standard \
   --preemptible  # プリエンプティブルON
 ```
 
