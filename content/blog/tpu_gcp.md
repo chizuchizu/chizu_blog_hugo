@@ -6,6 +6,7 @@ images: ["/img/main/tpu_gcp.jpg"]
 tags: ["gcp", "kaggle"]
 ---
 
+**GCP**で**TPU**を**Jupyter Lab**上で動かしたい人向けの記事です。
 
 # 作業
 ## TPUインスタンスを作る
