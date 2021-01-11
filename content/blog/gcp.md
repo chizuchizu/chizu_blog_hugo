@@ -185,7 +185,7 @@ gcloud compute ssh $INSTANCE_NAME
 ctpu up --project=$PROJECT_ID \
   --zone=$ZONE \
   --name=$INSTANCE_NAME \
-  --machine-type=$INSTNACE_TYPE \
+  --machine-type=$INSTANCE_TYPE \
   --tpu-size=v2-8 \
   --preemptible  \
   --preemptible-vm
