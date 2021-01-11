@@ -40,7 +40,7 @@ disableLanguages        = ["en"]
 
   [params.intro]
     header                = "チズチズ(chizuchizu)"
-    paragraph             = "1yo 統計学/Kaggle/Python/Linux"
+    paragraph             = "15yo 統計学/Kaggle/Python/Linux"
     rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
