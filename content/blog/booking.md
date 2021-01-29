@@ -6,6 +6,7 @@ tags: ["コンペ"]
 images: ["/img/main/booking.jpg"]
 ---
 
+昨日終わりました。
 
 # コンペ概要
 
