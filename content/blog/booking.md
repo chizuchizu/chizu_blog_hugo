@@ -4,6 +4,7 @@ author: "chizuchizu"
 date: 2021-01-30
 tags: ["コンペ"]
 images: ["/img/main/booking.jpg"]
+draft: false
 ---
 
 昨日終わりました。
