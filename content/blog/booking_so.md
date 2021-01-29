@@ -2,7 +2,6 @@
 title: "bookingコンペの振り返り"
 author: "chizuchizu"
 date: 2021-01-30
-tags: ["コンペ"]
 images: ["/img/main/booking.jpg"]
 ---
 
