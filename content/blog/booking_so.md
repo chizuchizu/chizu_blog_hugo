@@ -2,7 +2,7 @@
 title: "bookingコンペの振り返り"
 author: "chizuchizu"
 date: 2021-01-29
-images: ["https://github.com/Chizuchizu/chizu_blog_hugo/blob/master/static/img/main/booking.jpg"]
+images: ["https://raw.githubusercontent.com/Chizuchizu/chizu_blog_hugo/master/static/img/main/booking.jpg"]
 ---
 
 昨日終わりました。
