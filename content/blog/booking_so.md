@@ -1,15 +1,13 @@
 ---
 title: "bookingコンペの振り返り"
 author: "chizuchizu"
-date: 2021-01-30
+date: 2021-01-29
 images: ["/img/main/booking.jpg"]
 ---
 
 昨日終わりました。
 
 # コンペ概要
-
-
 ネットの海外旅行の代理店であるbooking社が主催しているコンペです。(https://www.bookingchallenge.com/)
 
 とはいうものの、ACMという国際学会のワークショップとして行われるのでスポンサー的な立ち位置なのでしょうか。いわゆる学会コンペです。
