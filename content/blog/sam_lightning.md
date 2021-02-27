@@ -26,7 +26,10 @@ https://github.com/davda54/sam
 
 そもそもPyTorch Lightningはいちいち `backward()`や`step()`とかを書くのが嫌で、kerasっぽい学習をしたいけどPyTorchの拡張性も使いたいっていう良い所どりしたい人が使うもの（偏見強め）なので、新しい手法だと問題が生じることが多々有ります。
 
-今回のSAMはまさにそうで、`first_step()`と`second_step()`を呼び出す必要がありますが、PyTorch Lightningではもちろん1回しか呼ぶことができません。
+今回のSAMはまさにそうで、`first_step()`と`second_step()`を呼び出す必要がありますが、PyTorch Lightningのデフォルトではもちろん1回しか呼ぶことができません。
+
+
+（また、SAMの公式実装で呼ぶ回数が1回で済む関数が用意されてましたが、エラーを吐かれてしまいました）
 
 
 
@@ -133,7 +136,7 @@ class SAMRunner(BASERunner):
 
 
 
-Runnerは元々定義していた、SAM以外で動くRunnerのクラスを継承してください。PyTorch Lightningの `optimizer_step`のところでoptimizerの調整が可能らしいです。
+Runnerは元々定義していた、Runnerのクラスを継承してください。PyTorch Lightningの `optimizer_step`のところでoptimizerの調整が可能らしいです。
 
 
 
@@ -156,5 +159,9 @@ if closure is not None:
 - step関数に`first_step`と`second_step`の両方を埋め込む
 
   Adam optimizerのコードを読んでデバッグして奮闘したがうまくいかなかった
+  
+## Feature Works
 
+- 1回の呼び出しで済むように書きたい（デバッグ）
+- 余力があればPyTorch Lightningのdisucssionに投下したり、エレガントな実装をプルリクしてみたり
   
