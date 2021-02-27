@@ -2,8 +2,8 @@
 title: "PyTorch LightningでSAMを動かす"
 author: "chizuchizu"
 date: 2021-02-26
-# images: ["https://raw.githubusercontent.com/Chizuchizu/chizu_blog_hugo/master/static/img/main/booking.jpg"]
-draft: true
+images: ["https://raw.githubusercontent.com/Chizuchizu/chizu_blog_hugo/master/static/img/main/sam optimizer.jpg"]
+draft: false
 ---
 
 # SAMのヤバさ
