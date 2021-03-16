@@ -4,8 +4,8 @@ author: "chizuchizu"
 date: 2020-07-30T20:31:22+09:00
 draft: false
 description: "概要"
-categories: ["dairy"]
-tags: ["dairy"]
+categories: ["diary"]
+tags: ["diary"]
 ---
 
 
