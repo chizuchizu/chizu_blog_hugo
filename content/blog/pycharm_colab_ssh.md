@@ -1,5 +1,13 @@
-# PyCharmでColabをSSH経由で使いたい
+---
+title: "PyCharmでColabをSSH経由で使いたい"
+author: "chizuchizu"
+date: 2021-03-26
+tags: ["colab"]
+images: ["/img/main/colab_pycharm.png"]
+---
 
+
+# PyCharmでColabをSSH経由で使いたい
 
 
 ## はじめに
