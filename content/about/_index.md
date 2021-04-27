@@ -39,7 +39,7 @@ author = "chizuchizu"
 
 # 実績
 
-## Data Science
+## プログラミング
 
 - Kaggle Competitions Expert(銅2銀1)
 - Kaggle notebooks Expert
@@ -47,7 +47,7 @@ author = "chizuchizu"
 - SIGNATE マイナビコンペ アイデア賞
 - 統計検定2級元最年少合格
 - 全国医療AIコンテスト 2021　優勝
-
+- Amplifyハッカソン　最優秀賞
 
 ## タイピング
 
