@@ -43,4 +43,8 @@ tags: ["blog"]
 パス設定は気をつけて。
 
 ## 画像保管庫
+
+webpに変換するツール
+https://lab.syncer.jp/Tool/Webp-Converter/
+
 https://github.com/Chizuchizu/chizu_blog_hugo/upload/master/static/img/main
