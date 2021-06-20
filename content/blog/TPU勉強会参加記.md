@@ -4,7 +4,7 @@ author: "chizuchizu"
 date: 2021-03-12
 tags: ["TPU", "kaggle"]
 draft: false
-images: ["/img/main/tpu-1.png"]
+images: ["/img/main/tpu-1.webp"]
 ---
 
 # TPU勉強会参加記
