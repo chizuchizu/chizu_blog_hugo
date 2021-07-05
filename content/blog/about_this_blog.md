@@ -99,14 +99,5 @@ xserver側にメールを送ったらどうやらお客様が消したみたい�
 \def\braket#1#2{\mathinner{\left\langle{#1}\middle|#2\right\rangle}}
 ```
 
-　$$
- \usepackage{braket}
 
- \bra{x}
- \ket{x}
- $$
- 
- $$
- \braket{x}
- $$
- 
+あいうえお$a$ほう　ほう $\sqrt{a}$
