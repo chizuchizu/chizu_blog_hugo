@@ -23,7 +23,7 @@ disableLanguages        = ["en"]
   socialShare           = ["twitter","facebook","line","email"]
 
   [params.meta]
-    description         = "数学/Python/Linux/日常にまつわるチズチズという人のつぶやきです。"
+    description         = "趣味"
     author              = "chizuchizu"
     favicon             = false
     svg                 = true
@@ -40,7 +40,7 @@ disableLanguages        = ["en"]
 
   [params.intro]
     header                = "チズチズ(chizuchizu)"
-    paragraph             = "15yo 統計学/Kaggle/Python/Linux"
+    paragraph             = "趣味のつぶやき"
     rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
@@ -53,7 +53,7 @@ disableLanguages        = ["en"]
       alt                 = "Chizuchizu's icon"
 
   [params.sidebar]
-    about               = "チズチズという人が書いているブログです。気ままに技術系だったりまったり系の記事を投稿します。"
+    about               = "趣味をつぶやく"
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -126,25 +126,13 @@ disableLanguages        = ["en"]
 [social]
   # Coding Communities
   github                = "chizuchizu"
-#  stackoverflow         = "" # User Number
-
- # behance               = ""
- # dribbble              = ""
-  # Publishing Communities
-  # Professional/Business Oriented Communities
- # foursquare            = ""
- # xing                  = ""
- # slideshare            = ""
-  # Social Networks
-  #reddit                = "example"
-  #quora                 = ""
   youtube               = "channel/UCUgUfVoiunYg48F7D3NRiRg"
   instagram             = "chizuchizu6"
   twitter               = "chizu_potato"
 
   #mastodon              = "example.com/@example"
   # Email
-  email                 = "ochimasumi@gmail.com"
+  email                 = "ochiyuma.ochi@gmail.com"
   atcoder               = "chizuchizu"
   kaggle                = "chizuchizu"
 
